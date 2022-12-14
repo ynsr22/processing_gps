@@ -130,4 +130,7 @@ void draw()
     } else {
       text("Vous êtes dans la zone", 300, 100);
     } 
+    
+    // RECHARGER L'IMAGE POUR EFFACER LES ELEMENTS PRECEDEMMENT AFFICHE 
+    background(loadImage("mapLH_1055_597.JPG")); smooth();
 }
